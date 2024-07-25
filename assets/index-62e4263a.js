@@ -886,4 +886,4 @@ PERFORMANCE OF THIS SOFTWARE.
   padding: 20px;
 `,yN=ka.div`
   margin: 0 auto;
-`;function bN(){const{network:e}=gN();return Fi(mN,{children:Fi(yN,{children:Fi(Vk,{children:s_(Wk,{children:[Fi(DT,{}),Fi(Gk,{children:e?e===Hl.MAINNET?"mainnet":"testnet":"N/A"})]})})})})}const wN="https://wiremail.github.io/tondapp/public/tonconnect-manifest.json",xN=new k_({defaultOptions:{queries:{refetchOnWindowFocus:!1}}});mv.createRoot(document.getElementById("root")).render(Fi(LT,{manifestUrl:wN,children:Fi(IS,{client:xN,children:Fi(bN,{})})}));
+`;function bN(){const{network:e}=gN();return Fi(mN,{children:Fi(yN,{children:Fi(Vk,{children:s_(Wk,{children:[Fi(DT,{}),Fi(Gk,{children:e?e===Hl.MAINNET?"mainnet":"testnet":"N/A"})]})})})})}const wN="https://wiremail.github.io/tondapp/tonconnect-manifest.json",xN=new k_({defaultOptions:{queries:{refetchOnWindowFocus:!1}}});mv.createRoot(document.getElementById("root")).render(Fi(LT,{manifestUrl:wN,children:Fi(IS,{client:xN,children:Fi(bN,{})})}));
