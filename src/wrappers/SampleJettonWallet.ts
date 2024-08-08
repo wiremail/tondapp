@@ -1,1 +1,1 @@
-export * from '../../../my-twa/build/SampleJetton/tact_JettonDefaultWallet';
+export * from '../../../tondapp/build/SampleJetton/tact_JettonDefaultWallet';
